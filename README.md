@@ -10,7 +10,7 @@ The Itó Integral identity is a fundamental result in stochastic calculus. For a
 
 $$ \int_0^T W_t \, dW_t = \frac{1}{2} (W_T^2 - T) $$
 
-This result is non-intuitive because it differs from the classical calculus result \( \int x \, dx = \frac{1}{2}x^2 \). The difference arises because Brownian motion has nonzero quadratic variation, which contributes the \( -T/2 \) term.
+This result is non-intuitive because it differs from the classical calculus result $\( \int x \$, $dx = \frac{1}{2}x^2 \)$. The difference arises because Brownian motion has nonzero quadratic variation, which contributes the \( -T/2 \) term.
 
 The left-hand side is approximately using a left-point Riemann sum:
 
