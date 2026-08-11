@@ -10,7 +10,7 @@ The Itó Integral identity is a fundamental result in stochastic calculus. For a
 
 $$ \int_0^T W_t \, dW_t = \frac{1}{2} (W_T^2 - T) $$
 
-This result is non-intuitive because it differs from the classical calculus result $\( \int x \$, $dx = \frac{1}{2}x^2 \)$. The difference arises because Brownian motion has nonzero quadratic variation, which contributes the \( -T/2 \) term.
+This result is non-intuitive because it differs from the classical calculus result $\( \int x \$, $dx = \frac{1}{2}x^2 \)$. The difference arises because Brownian motion has nonzero quadratic variation, which contributes the $\( -T/2 \)$ term.
 
 The left-hand side is approximately using a left-point Riemann sum:
 
@@ -61,9 +61,9 @@ Ito-integral-verification/
 
 The numerical results confirm the Itó identity:
 
--**Itó sum** converges to \( \frac{1}{2}(W_T^2 - T) \) as the number of time steps increases
-- **Mean absolute errorr** decay as \( O(1/\sqrt{n}) \), consistent with theoretical expectations
-- **Quadratic variation** converges to \( T \), confirming the properties of Brownian motion
+-**Itó sum** converges to $\( \frac{1}{2}(W_T^2 - T) \)$ as the number of time steps increases
+- **Mean absolute errorr** decay as $\( O(1/\sqrt{n}) \)$, consistent with theoretical expectations
+- **Quadratic variation** converges to $\( T \)$, confirming the properties of Brownian motion
 - **RMSE** provides a robust measure of convergence across multiple paths
 
 These results demonstrate that the discrete approximation accurately captures the continuous stochastic integral. 
