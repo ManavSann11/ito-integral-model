@@ -6,7 +6,7 @@ to the theoretical result.
 
 ## Mathematical Background
 
-The Itó Integral identity is a fundamental result in stochastic calculus. For a standard Brownian motion \( W_t \), the identity states:
+The Itó Integral identity is a fundamental result in stochastic calculus. For a standard Brownian motion $\( W_t \)$, the identity states:
 
 $$ \int_0^T W_t \, dW_t = \frac{1}{2} (W_T^2 - T) $$
 
