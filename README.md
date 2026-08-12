@@ -45,12 +45,14 @@ Includes quadratic variation convergence analysis alongside the Itó identity, w
 - Matplotlib for visualization
 
 ## Repository Structure
-Ito-integral-verification/
+ito-integral-verification/
 ├── README.md
+├── requirements.txt
+├── .gitignore
 ├── day1_brownian_motion.py
 ├── day2_ito_verification.py
 ├── day3_convergence_analysis.py
-├── day4_extended_analysis.py
+└── day4_extended_analysis.py
 
 ## How to Run
 1. Clone the repository
